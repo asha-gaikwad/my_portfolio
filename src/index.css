@@ -15,6 +15,7 @@ body{
 
 :root{
   --dark-color: #000;
+  --white-color: #fff;
   --Light-color: #fff;
   --text-color: #fff;
   --bg-color: #191c26;
@@ -22,11 +23,13 @@ body{
   --primary-color: #ffc94b;
   --pera-color: rgba(255,255,255,0.6);
   --button-bg:rgba(255,255,255,0.05);
+  --bg-card:rgba(255,255,255,0.1);
 
 }
 
 [data-theme= 'Light']{
   --dark-color: #fff;
+  --white-color: #fff;
   --Light-color: #000;
   --text-color: #1e1e1e;
   --bg-color: #f5f8fc;
@@ -34,6 +37,8 @@ body{
   --primary-color: #ffc94b;
   --pera-color: rgba(0,0,0,0.6);
   --button-bg:rgba(0,0,0,0.05);
+  --bg-card:rgba(0,0,0,0.1);
+
 
 }
 

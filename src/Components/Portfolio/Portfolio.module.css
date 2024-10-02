@@ -1,0 +1,46 @@
+.swiper{
+width: 100% !important;
+}
+
+.Card{
+    height: 380px;
+    width: 380px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.Card .content{
+    position: absolute;
+    bottom: -50%;
+    left: 20px;
+    color: var(--white-color);
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: var(--bg-card);
+    border: 0.5px solid var(--white-color);
+    transition: .6s;
+}
+
+.Card:hover .content{
+    bottom: 20px;
+}
+
+.Card .content h3{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+.Card1{
+    background-image: url(../../assets/1.webp);
+}
+
+.Card2{
+    background-image: url(../../assets/2.webp);
+}
+
+.Card3{
+    background-image: url(../../assets/4.webp);
+}
+

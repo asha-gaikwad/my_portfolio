@@ -37,8 +37,8 @@ function Contact() {
       <div className={contactCss.ContactContainer}>
         <div className={contactCss.ContactInfo}>
           <div className={contactCss.card}>
-            <i className="ri-phone-line">
-              <h3>+91 7350713103</h3>
+            <i className="ri-linkedin-line">
+              <h3>Linkedin</h3>
             </i>
           </div>
           <div className={contactCss.card}>

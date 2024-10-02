@@ -96,7 +96,14 @@
 
     .ServiceWrapper .ServiceCard h3{
         height: 100px;
-
     }
+
+    .ServiceWrapper .ServiceCard{
+        height: 450px;
+    }
+
+    .ServiceWrapper .pera {
+        width: 100%;
+      }
 }
 

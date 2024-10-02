@@ -1,0 +1,117 @@
+ .swiper {
+  width: 100% !important;
+  margin-top: 60px;
+}
+
+.Testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 25px;
+  background-color: var(--bg-card);
+  border-radius: 12px;
+}
+
+.TestimonialWrapper {
+  color: var(--text-color);
+  gap: 18px;
+  background-color: var(--bg-color);
+}
+
+.TestimonialWrapper .pera {
+  width: 100%;
+  max-width: 60%;
+  margin-bottom: 30px;
+}
+
+.TestimonialWrapper h2 {
+  font-size: 38px;
+  line-height: 45px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.profile h3 {
+  font-size: 26px;
+}
+
+.profile h3 span {
+  display: block;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.quote {
+  position: absolute;
+  top: 14px;
+  right: 35%;
+}
+
+.TestimonialWrapper p {
+  font-size: 20px;
+  width: 100%;
+}
+
+/* Breakpoints for responsive adjustments */
+@media screen and (max-width: 1400px) {
+  .quote {
+    right: 25%;
+  }
+  .TestimonialWrapper h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .profile h3 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .quote {
+    right: 20%;
+  }
+  .TestimonialWrapper h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .profile h3 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .quote {
+    right: 15%;
+  }
+  .TestimonialWrapper h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .profile h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Testimonial {
+    padding: 20px;
+  }
+  .TestimonialWrapper h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .TestimonialWrapper .pera {
+    max-width: 80%;
+  }
+  .profile h3 {
+    font-size: 18px;
+  }
+  .quote {
+    right: 10%;
+  }
+}

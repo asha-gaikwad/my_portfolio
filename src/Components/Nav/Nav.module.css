@@ -15,6 +15,14 @@
     color: #ffc94b;
 }
 
+
+.navbarScroll{
+    position: fixed;
+    top:0;
+    z-index: 999;
+    box-shadow: 0 5px 10px var(--nav-txt-bg);
+}
+
 .NavBtns{
     display: flex;
     gap: 8px;

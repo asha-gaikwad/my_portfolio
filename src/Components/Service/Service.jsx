@@ -12,8 +12,8 @@ const defaultOptions ={
     
   return (
     <>
-    <section className={`${serviceCss.ServiceWrapper} section`}>
-        <h1>What I Do</h1>
+    <section className={`${serviceCss.ServiceWrapper} section`} id="services">
+        <h2>What I Do</h2>
         <p className={serviceCss.pera}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus explicabo saepe facilis consequuntur adipisci consectetur aliquid.</p>
         <div className={serviceCss.ServiceCards}>
             <Tilt option={defaultOptions}>

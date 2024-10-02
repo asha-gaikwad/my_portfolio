@@ -5,7 +5,7 @@ import aboutImg from "../../assets/about-bg.png";
 function About() {
   return (
     <>
-      <section  className={`${aboutCss.AboutWrapper} section`}>
+      <section  className={`${aboutCss.AboutWrapper} section`} id="about">
         <div className={aboutCss.aboutContainer}>
           <h2>About Me</h2>
           <p>

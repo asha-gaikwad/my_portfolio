@@ -1,16 +1,33 @@
-.swiper{
-width: 100% !important;
-}
-
-.Card{
+ .swiper {
+    width: 100% !important;
+  }
+  
+  .Card {
     height: 380px;
-    width: 380px;
+    width: 100%;
+    max-width: 380px;
     border-radius: 8px;
     overflow: hidden;
     position: relative;
-}
-
-.Card .content{
+  }
+  
+  .portfolioWrapper {
+    color: var(--text-color);
+    gap:18px
+  }
+  
+  .portfolioWrapper .pera {
+    width: 100%;
+    max-width: 60%; 
+    margin-bottom: 30px;
+  }
+  
+  .portfolioWrapper h2 {
+    font-size: 38px;
+    line-height: 30px;
+  }
+  
+  .Card .content {
     position: absolute;
     bottom: -50%;
     left: 20px;
@@ -20,27 +37,89 @@ width: 100% !important;
     background-color: var(--bg-card);
     border: 0.5px solid var(--white-color);
     transition: .6s;
-}
-
-.Card:hover .content{
+  }
+  
+  .Card:hover .content {
     bottom: 20px;
-}
-
-.Card .content h3{
+  }
+  
+  .Card .content h3 {
     font-size: 15px;
     font-weight: 300;
-}
-
-
-.Card1{
+  }
+  
+  .Card1 {
     background-image: url(../../assets/1.webp);
-}
-
-.Card2{
+  }
+  
+  .Card2 {
     background-image: url(../../assets/2.webp);
-}
-
-.Card3{
+  }
+  
+  .Card3 {
     background-image: url(../../assets/4.webp);
-}
+  }
+  
+  .Card4 {
+    background-image: url(../../assets/5.webp);
+  }
+  
 
+
+  @media (max-width: 1400px) {
+    .Card {
+      height: 360px;
+    }
+    .portfolioWrapper h2 {
+      font-size: 36px;
+      line-height: 40px;
+    }
+  }
+  
+  @media (max-width: 1100px) {
+    .Card {
+      height: 340px;
+    }
+    .portfolioWrapper h2 {
+      font-size: 34px;
+      line-height: 38px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .Card {
+      height: 320px;
+    }
+    .portfolioWrapper h2 {
+      font-size: 32px;
+      line-height: 36px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Card {
+      height: 300px;
+      max-width: 90%; 
+    }
+    .portfolioWrapper h2 {
+      font-size: 28px;
+      line-height: 32px;
+    }
+    .portfolioWrapper .pera {
+      width: 100%;
+    }
+  }
+  
+  /* @media (max-width: 600px) {
+    .Card {
+      height: 280px;
+    }
+    .portfolioWrapper h2 {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    .portfolioWrapper .pera {
+      width: 90%;
+    }
+  } */
+  
